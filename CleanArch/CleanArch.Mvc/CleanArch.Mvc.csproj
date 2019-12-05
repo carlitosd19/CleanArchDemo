@@ -15,6 +15,11 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArch.Infra.data\CleanArch.Infra.Data.csproj" />
+  </ItemGroup>
+
+
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptTarget>ES2015</TypeScriptTarget>
     <TypeScriptJSXEmit>React</TypeScriptJSXEmit>

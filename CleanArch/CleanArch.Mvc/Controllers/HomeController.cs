@@ -1,7 +1,7 @@
-﻿using System.Diagnostics;
+﻿using CleanArch.Mvc.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using CleanArch.Mvc.Models;
+using System.Diagnostics;
 
 namespace CleanArch.Mvc.Controllers
 {
