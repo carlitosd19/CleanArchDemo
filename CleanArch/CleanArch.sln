@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{2ABDE9B7-9A57-4959-9D69-00539ACA394E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.data\CleanArch.Infra.Data.csproj", "{A073BD33-F142-4867-88A0-073DE782183B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.data\CleanArch.Infra.Data.csproj", "{A073BD33-F142-4867-88A0-073DE782183B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{8594A8C6-3A33-45D4-BD56-91A8CCEAC6A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{A073BD33-F142-4867-88A0-073DE782183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A073BD33-F142-4867-88A0-073DE782183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A073BD33-F142-4867-88A0-073DE782183B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8594A8C6-3A33-45D4-BD56-91A8CCEAC6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8594A8C6-3A33-45D4-BD56-91A8CCEAC6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8594A8C6-3A33-45D4-BD56-91A8CCEAC6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8594A8C6-3A33-45D4-BD56-91A8CCEAC6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{81202AC4-0015-4016-9276-671FB7D8BC37} = {8065C761-3426-468E-8729-CF1B92499986}
 		{2ABDE9B7-9A57-4959-9D69-00539ACA394E} = {CF4FB254-91BA-46BE-98E6-615DE0261618}
 		{A073BD33-F142-4867-88A0-073DE782183B} = {0F93701B-F7AC-4E34-863C-85FE39732ADD}
+		{8594A8C6-3A33-45D4-BD56-91A8CCEAC6A6} = {08C12A60-CCFE-4AC9-BC6F-A09112B19EDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75DC6CFD-D97C-432E-BBD7-2D2E63F9D490}
